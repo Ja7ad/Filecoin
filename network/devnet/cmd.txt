@@ -1,0 +1,19 @@
+worker with volume:
+
+docker run -d -it -e "MINER_API_INFO=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.x2gkTXSe_XMDkNHf9iC_pO-aNBFbwzx3TR3d7NZa8L8:/ip4/0.0.0.0/tcp/2345/http" --network host --mount source=lotus-wrapper_storage1,target=/root/storage1 --name w1-pc1 lotus-dev
+
+Worker without volume:
+
+docker run -d -it -e "MINER_API_INFO=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.x2gkTXSe_XMDkNHf9iC_pO-aNBFbwzx3TR3d7NZa8L8:/ip4/0.0.0.0/tcp/2345/http" --network host --name w1 lotus-dev lotus-worker run --listen "0.0.0.0:3455"
+
+
+lotus-worker run --no-local-storage --addpiece=true --precommit1=false --precommit2=false --commit=false --listen "0.0.0.0:3455"
+
+MINER_API_INFO=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.sEo9yFg9frGqMrMHr3W-p43k_UzXnbH5FjRA0zyDaEA:/ip4/0.0.0.0/tcp/2345/http
+
+miner = 4e31677f-e080-4506-98b9-646e28882fc7
+AP = e9565dd5-5347-4619-aae7-06d2f086d184
+w1-pc1 = b7253c62-ad50-4052-9555-78c7da17a397
+w2-pc1 = 
+w1-pc2-c2 =  
+w2-pc2-c2 = 

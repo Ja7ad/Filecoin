@@ -1,0 +1,13 @@
+Suggestions for hardware :
+
+Switch SN-2700 32-port 100 GbE
+
+https://store.mellanox.com/products/nvidia-msn2700-csbfc-spectrum-based-100gbe-1u-open-ethernet-switch-with-cumulus-linux-32-qsfp28-ports-2-power-supplies-dc-x86-cpu-standard-depth-p2c-airflow-rail-kit.html
+
+NIC MCX516A-CCAT ConnectX-5 EN
+
+https://store.mellanox.com/products/nvidia-mcx516a-ccat-connectx-5-en-adapter-card-100gbe-dual-port-qsfp28-pcie3-0-x16-tall-bracket-rohs-r6.html
+
+Cable MCP1600-C003E26N DAC Cable Ethernet 100GbE ( 1to1 )
+
+https://store.mellanox.com/products/nvidia-mcp1600-c003e26n-passive-copper-cable-ethernet-100gbe-qsfp28-3m-black-26awg-ca-n.html

@@ -1,0 +1,22 @@
+2021-07-30T03:22:09.065-0400			INFO			main			lotus-seal-worker/main.go:336			Opening local storage; connecting to master
+
+2021-07-30T03:22:09.065-0400			INFO			main			lotus-seal-worker/main.go:394			Setting up control endpoint at 127.0.0.1:3458
+
+2021-07-30T03:22:09.068-0400			INFO			main			lotus-seal-worker/main.go:497			Making sure no local tasks are running
+
+2021-07-30T03:22:09.134-0400			INFO			main			lotus-seal-worker/main.go:520			Worker registered successfully, waiting for tasks
+
+2021-07-30T03:27:04.058-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 2} 5} (e:1; a:0): {{0 0} /root/devnet/storage1/unsealed/s-t01000-2  }
+
+2021-07-30T03:27:04.066-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 2} 5} (e:1; a:6): {{0 0} /root/devnet/storage1/unsealed/s-t01000-2 /root/devnet/storage1/sealed/s-t01000-2 /root/devnet/storage1/cache/s-t01000-2}
+
+2021-07-30T03:27:04.111-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 4} 5} (e:1; a:0): {{0 0} /root/devnet/storage1/unsealed/s-t01000-4  }
+
+2021-07-30T03:27:04.118-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 4} 5} (e:1; a:6): {{0 0} /root/devnet/storage1/unsealed/s-t01000-4 /root/devnet/storage1/sealed/s-t01000-4 /root/devnet/storage1/cache/s-t01000-4}
+
+2021-07-30T03:27:39.772-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 3} 5} (e:1; a:0): {{0 0} /root/devnet/storage1/unsealed/s-t01000-3  }
+
+2021-07-30T03:27:39.779-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 3} 5} (e:1; a:6): {{0 0} /root/devnet/storage1/unsealed/s-t01000-3 /root/devnet/storage1/sealed/s-t01000-3 /root/devnet/storage1/cache/s-t01000-3}
+
+2021-07-13T02:56:56.111-0400    INFO    jobTracker      sector-storage/worker_tracked.go:75     Worker 8a4acfbf in hostname ip-172-31-36-231 taskType PC1 with duration 9.51718ms done
+

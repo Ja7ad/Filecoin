@@ -1,0 +1,8 @@
+- Data transfer between servers and between server and storage without the involvement of the host CPU in the data path
+- Bandwidth 10 ~ 400 GbE/s (DDR, QDR, FDR, EDR, HDR, NDR)
+- RDMA provides low latency through stack bypass and copy avoidance
+- Reduces CPU utilization
+- Reduces memory bandwidth bottlenecks and provides high bandwidth utilization
+- Optimized server utilization with high speed networking and CPU offload
+- High availability and high reliability for compute, storage, and network
+- Increases total SSD utilization to over 90%

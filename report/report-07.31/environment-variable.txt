@@ -1,0 +1,24 @@
+PC1
+Environment=FIL_PROOFS_MAXIMIZE_CACHING=1
+Environment=FIL_PROOFS_SDR_PARENTS_CACHE_SIZE=1073741824
+Environment=FIL_PROOFS_PARAMETER_CACHE="/root/proofs/filecoin-proof-parameters"
+Environment=FIL_PROOFS_PARENT_CACHE="/root/proofs/filecoin-parents"
+Environment=FIL_PROOFS_USE_MULTICORE_SDR=1
+
+C2
+Environment=FIL_PROOFS_MAXIMIZE_CACHING=1
+Environment=FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1
+Environment=FIL_PROOFS_USE_GPU_TREE_BUILDER=1
+Environment=BELLMAN_CUSTOM_GPU="GeForce RTX 3090:10496"
+Environment=CUDA_VISIBLE_DEVICES=1
+Environment=BELLMAN_CPU_UTILIZATION=0
+
+miner
+Environment=FIL_PROOFS_SDR_PARENTS_CACHE_SIZE=1073741824
+Environment=RUST_BACKTRACE="full"
+Environment=RUST_LOG="info"
+Environment=HOME="/root"
+Environment=LOTUS_BACKUP_BASE_PATH="/miner_migration/backup"
+Environment=FIL_PROOFS_MAXIMIZE_CACHING=1
+Environment=FIL_PROOFS_USE_GPU_COLUMN_BUILDER=1
+Environment=FIL_PROOFS_USE_GPU_TREE_BUILDER=1

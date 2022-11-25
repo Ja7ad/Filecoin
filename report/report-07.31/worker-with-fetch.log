@@ -1,0 +1,35 @@
+2021-07-30T03:47:39.104-0400			INFO			main			lotus-seal-worker/main.go:336			Opening local storage; connecting to master
+2021-07-30T03:47:39.106-0400			INFO			main			lotus-seal-worker/main.go:394			Setting up control endpoint at 127.0.0.1:3456
+2021-07-30T03:47:39.107-0400			INFO			main			lotus-seal-worker/main.go:497			Making sure no local tasks are running
+2021-07-30T03:47:39.142-0400			INFO			main			lotus-seal-worker/main.go:520			Worker registered successfully, waiting for tasks
+
+
+Step1 : paths {{0 0}   } , stores {{0 0}   }
+
+
+
+Step2 : apaths {{0 0} /root/.lotusworker/unsealed/s-t01000-2  } , ids {{0 0} 4c93ce3d-c66d-4d08-ac7c-0670a97405b9  }
+
+
+
+Step3 : pathType sealing , PathStorage storage
+
+
+
+Step4 : fileTypes unsealed
+
+2021-07-30T03:50:02.087-0400			INFO			stores			stores/remote.go:242			Fetch http://0.0.0.0:2345/remote/unsealed/s-t01000-2 -> /root/.lotusworker/unsealed/fetching/s-t01000-2
+
+Step5 : dest /root/.lotusworker/unsealed/s-t01000-2 , storageID 4c93ce3d-c66d-4d08-ac7c-0670a97405b9, url http://0.0.0.0:2345/remote/unsealed/s-t01000-2
+
+2021-07-30T03:50:02.091-0400			INFO			stores			stores/remote.go:354			Delete http://0.0.0.0:2345/remote/unsealed/s-t01000-2
+
+
+Step6 : paths {{0 0} /root/.lotusworker/unsealed/s-t01000-2  } , stores {{0 0} 4c93ce3d-c66d-4d08-ac7c-0670a97405b9  }
+
+2021-07-30T03:50:02.092-0400			DEBUG			advmgr			sector-storage/worker_local.go:137			acquired sector {{1000 2} 5} (e:1; a:0): {{0 0} /root/.lotusworker/unsealed/s-t01000-2  }
+
+Step7 : outname /root/.lotusworker/unsealed/fetching/s-t01000-2 , resp.header map[Accept-Ranges:[bytes] Content-Length:[2055] Content-Type:[application/octet-stream] Date:[Fri, 30 Jul 2021 07:50:02 GMT] Last-Modified:[Fri, 30 Jul 2021 07:50:02 GMT]]
+
+2021-07-30T03:50:02.088-0400			DEBUG			stores			stores/util_unix.go:30			move sector data			{"from": "/root/.lotusworker/unsealed/fetching/s-t01000-2", "to": "/root/.lotusworker/unsealed/s-t01000-2"}
+

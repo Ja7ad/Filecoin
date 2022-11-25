@@ -1,0 +1,187 @@
+2021-08-11T00:42:47.334-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:172	Starting lotus worker
+2021-08-11T00:42:47.352-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:217	Remote version 1.11.2-dev+2k+git.5cf10054f+api1.2.0
+2021-08-11T00:42:47.366-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-6babf46ce344ae495d558e7770a585b2382d54f225af8ed0397b8be7c3fcd472.vk is ok
+2021-08-11T00:42:47.367-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3ea05428c9d11689f23529cde32fd30aabd50f7d2c93657c1d3650bca3e8ea9e.vk is ok
+2021-08-11T00:42:47.367-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-0170db1f394b35d995252228ee359194b13199d259380541dc529fb0099096b0.vk is ok
+2021-08-11T00:42:47.367-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-8-0-sha256_hasher-82a357d2f2ca81dc61bb45f4a762807aedee1b0a53fd6c4e77b46a01bfef7820.vk is ok
+2021-08-11T00:42:47.368-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-0cfb4f178bbb71cf2ecfcd42accce558b27199ab4fb59cb78f2483fe21ef36d9.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-8-0-0377ded656c6f524f1618760bffe4e0a1c51d5a70c4509eedae8a27555733edc.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-8-0-559e581f022bb4e4ec6e719e563bf0e026ad6de42e56c18714a2c692b1b88d7e.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-ecd683648512ab1765faa2a5f14bab48f676e633467f0aa8aad4b55dcb0652bb.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-50c7368dea9593ed0989e70974d28024efa9d156d585b7eea1be22b2e753f331.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-5294475db5237a2e83c3e52fd6c2b03859a1831d45ed08c4f35dbf9a803165a9.vk is ok
+2021-08-11T00:42:47.370-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-8-2-b62098629d07946e9028127e70295ed996fe3ed25b0f9f88eb610a0ab4385a3c.vk is ok
+2021-08-11T00:42:47.371-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-8-2-sha256_hasher-96f1b4a04c5c51e4759bbf224bbc2ef5a42c7100f16ec0637123f16a845ddfb2.vk is ok
+2021-08-11T00:42:47.375-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-8-2-2627e4006b67f99cef990c0a47d5426cb7ab0a0ad58fc1061547bf2d28b09def.vk is ok
+2021-08-11T00:42:47.375-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-032d3138d22506ec0082ed72b2dcba18df18477904e35bafee82b3793b06832f.vk is ok
+2021-08-11T00:42:47.375-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-7d739b8cf60f1b0709eeebee7730e297683552e4b69cab6984ec0285663c5781.vk is ok
+2021-08-11T00:42:47.389-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-0170db1f394b35d995252228ee359194b13199d259380541dc529fb0099096b0.params is ok
+2021-08-11T00:42:47.471-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-proof-of-spacetime-fallback-merkletree-poseidon_hasher-8-0-0-3ea05428c9d11689f23529cde32fd30aabd50f7d2c93657c1d3650bca3e8ea9e.params is ok
+2021-08-11T00:42:47.873-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-fil-inner-product-v1.srs is ok
+2021-08-11T00:42:48.963-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:183	Parameter file /var/tmp/filecoin-proof-parameters/v28-stacked-proof-of-replication-merkletree-poseidon_hasher-8-0-0-sha256_hasher-032d3138d22506ec0082ed72b2dcba18df18477904e35bafee82b3793b06832f.params is ok
+2021-08-11T00:42:48.963-0400	[34mINFO[0m	paramfetch	go-paramfetch@v0.0.2-0.20210614165157-25a6c7769498/paramfetch.go:207	parameter and key-fetching complete
+2021-08-11T00:42:48.963-0400	[34mINFO[0m	repo	repo/fsrepo.go:140	Initializing repo at '/root/.lotusworker'
+2021-08-11T00:42:48.983-0400	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 4ms
+
+2021-08-11T00:42:49.004-0400	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-08-11T00:42:49.022-0400	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-08-11T00:42:49.031-0400	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-08-11T00:42:49.031-0400	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 4.18µs
+
+2021-08-11T00:42:49.064-0400	[34mINFO[0m	badger	v2@v2.2007.2/levels.go:183	All 0 tables opened in 0s
+
+2021-08-11T00:42:49.065-0400	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1158	Replaying file id: 0 at offset: 0
+
+2021-08-11T00:42:49.065-0400	[34mINFO[0m	badger	v2@v2.2007.2/value.go:1178	Replay took: 3.68µs
+
+2021-08-11T00:42:49.065-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:336	Opening local storage; connecting to master
+2021-08-11T00:42:49.065-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:394	Setting up control endpoint at 127.0.0.1:3451
+2021-08-11T00:42:49.070-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:497	Making sure no local tasks are running
+2021-08-11T00:42:49.113-0400	[34mINFO[0m	main	lotus-seal-worker/main.go:520	Worker registered successfully, waiting for tasks
+2021-08-11T00:52:00.484-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-2 -> /root/storage1/unsealed/fetching/s-t01000-2
+2021-08-11T00:52:00.487-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-2", "to": "/root/storage1/unsealed/s-t01000-2"}
+2021-08-11T00:52:00.495-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-2
+2021-08-11T00:52:00.497-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-2  }
+2021-08-11T00:52:00.505-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-2': file does not exist
+2021-08-11T00:52:00.505-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-2 /root/storage1/sealed/s-t01000-2 /root/storage1/cache/s-t01000-2}
+2021-08-11T00:52:58.363-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-3 -> /root/storage1/unsealed/fetching/s-t01000-3
+2021-08-11T00:52:58.364-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-3", "to": "/root/storage1/unsealed/s-t01000-3"}
+2021-08-11T00:52:58.366-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-3
+2021-08-11T00:52:58.369-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-3  }
+2021-08-11T00:52:58.376-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-3': file does not exist
+2021-08-11T00:52:58.376-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-3 /root/storage1/sealed/s-t01000-3 /root/storage1/cache/s-t01000-3}
+2021-08-11T00:52:58.430-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-5 -> /root/storage1/unsealed/fetching/s-t01000-5
+2021-08-11T00:52:58.432-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-5", "to": "/root/storage1/unsealed/s-t01000-5"}
+2021-08-11T00:52:58.434-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-5
+2021-08-11T00:52:58.436-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-5  }
+2021-08-11T00:52:58.443-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-5': file does not exist
+2021-08-11T00:52:58.443-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-5 /root/storage1/sealed/s-t01000-5 /root/storage1/cache/s-t01000-5}
+2021-08-11T00:53:23.522-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-4 -> /root/storage1/unsealed/fetching/s-t01000-4
+2021-08-11T00:53:23.525-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-4", "to": "/root/storage1/unsealed/s-t01000-4"}
+2021-08-11T00:53:23.527-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-4
+2021-08-11T00:53:23.529-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-4  }
+2021-08-11T00:53:23.536-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-4': file does not exist
+2021-08-11T00:53:23.536-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-4 /root/storage1/sealed/s-t01000-4 /root/storage1/cache/s-t01000-4}
+2021-08-11T00:55:46.055-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-5 /root/storage1/cache/s-t01000-5}
+2021-08-11T00:55:46.107-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-5 /root/storage1/cache/s-t01000-5}
+2021-08-11T00:55:46.109-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-4 /root/storage1/cache/s-t01000-4}
+2021-08-11T00:55:46.110-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-3 /root/storage1/cache/s-t01000-3}
+2021-08-11T00:55:46.110-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-2 /root/storage1/cache/s-t01000-2}
+2021-08-11T00:55:46.116-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-3 /root/storage1/cache/s-t01000-3}
+2021-08-11T00:55:46.116-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-2 /root/storage1/cache/s-t01000-2}
+2021-08-11T00:55:46.116-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-4 /root/storage1/cache/s-t01000-4}
+2021-08-11T00:56:28.087-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-7 -> /root/storage1/unsealed/fetching/s-t01000-7
+2021-08-11T00:56:28.093-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-7", "to": "/root/storage1/unsealed/s-t01000-7"}
+2021-08-11T00:56:28.115-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-7
+2021-08-11T00:56:28.119-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-7  }
+2021-08-11T00:56:28.131-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-7': file does not exist
+2021-08-11T00:56:28.132-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-7 /root/storage1/sealed/s-t01000-7 /root/storage1/cache/s-t01000-7}
+2021-08-11T00:57:16.743-0400	[34mINFO[0m	stores	stores/remote.go:228	Fetch http://127.0.0.1:3450/remote/unsealed/s-t01000-6 -> /root/storage1/unsealed/fetching/s-t01000-6
+2021-08-11T00:57:16.752-0400	[35mDEBUG[0m	stores	stores/util_unix.go:30	move sector data	{"from": "/root/storage1/unsealed/fetching/s-t01000-6", "to": "/root/storage1/unsealed/s-t01000-6"}
+2021-08-11T00:57:16.758-0400	[34mINFO[0m	stores	stores/remote.go:364	Delete http://127.0.0.1:3450/remote/unsealed/s-t01000-6
+2021-08-11T00:57:16.764-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-6  }
+2021-08-11T00:57:16.773-0400	[35mDEBUG[0m	stores	stores/local.go:117	getting disk usage of '/root/storage1/sealed/s-t01000-6': file does not exist
+2021-08-11T00:57:16.773-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:1; a:6): {{0 0} /root/storage1/unsealed/s-t01000-6 /root/storage1/sealed/s-t01000-6 /root/storage1/cache/s-t01000-6}
+2021-08-11T00:59:14.718-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-6 /root/storage1/cache/s-t01000-6}
+2021-08-11T00:59:14.741-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-6 /root/storage1/cache/s-t01000-6}
+2021-08-11T00:59:14.743-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-7 /root/storage1/cache/s-t01000-7}
+2021-08-11T00:59:14.749-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:6; a:0): {{0 0}  /root/storage1/sealed/s-t01000-7 /root/storage1/cache/s-t01000-7}
+2021-08-11T01:00:12.578-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-2 /root/storage1/sealed/s-t01000-2 /root/storage1/cache/s-t01000-2}
+2021-08-11T01:00:12.662-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-4 /root/storage1/sealed/s-t01000-4 /root/storage1/cache/s-t01000-4}
+2021-08-11T01:00:12.672-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-2  }
+2021-08-11T01:00:12.672-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:00:12.672-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-3 /root/storage1/sealed/s-t01000-3 /root/storage1/cache/s-t01000-3}
+2021-08-11T01:00:12.672-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-5 /root/storage1/sealed/s-t01000-5 /root/storage1/cache/s-t01000-5}
+2021-08-11T01:00:12.672-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 2} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-2}
+2021-08-11T01:00:12.679-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-4  }
+2021-08-11T01:00:12.679-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:00:12.683-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-5  }
+2021-08-11T01:00:12.683-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:00:12.684-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 4} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-4}
+2021-08-11T01:00:12.684-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 5} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-5}
+2021-08-11T01:00:12.758-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-3  }
+2021-08-11T01:00:12.758-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:00:12.759-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 3} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-3}
+2021-08-11T01:00:12.761-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-2
+2021-08-11T01:00:12.763-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:2}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-2
+2021-08-11T01:00:12.769-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-2
+2021-08-11T01:00:12.770-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-2
+2021-08-11T01:00:12.783-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-2
+2021-08-11T01:00:12.787-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:2}, fileType=sealed, path=/root/storage1/sealed/s-t01000-2
+2021-08-11T01:00:12.791-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-2
+2021-08-11T01:00:12.794-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-2
+2021-08-11T01:00:12.795-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-2
+2021-08-11T01:00:12.799-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:2}, fileType=cache, path=/root/storage1/cache/s-t01000-2
+2021-08-11T01:00:12.812-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-2
+2021-08-11T01:00:12.813-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-2
+2021-08-11T01:00:12.868-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-5
+2021-08-11T01:00:12.869-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:5}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-5
+2021-08-11T01:00:12.875-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-4
+2021-08-11T01:00:12.876-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-5
+2021-08-11T01:00:12.877-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:4}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-4
+2021-08-11T01:00:12.879-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-5
+2021-08-11T01:00:12.883-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-5
+2021-08-11T01:00:12.884-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:5}, fileType=sealed, path=/root/storage1/sealed/s-t01000-5
+2021-08-11T01:00:12.887-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-4
+2021-08-11T01:00:12.888-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-4
+2021-08-11T01:00:12.889-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-5
+2021-08-11T01:00:12.889-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-4
+2021-08-11T01:00:12.890-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:4}, fileType=sealed, path=/root/storage1/sealed/s-t01000-4
+2021-08-11T01:00:12.891-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-5
+2021-08-11T01:00:12.892-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-5
+2021-08-11T01:00:12.893-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:5}, fileType=cache, path=/root/storage1/cache/s-t01000-5
+2021-08-11T01:00:12.903-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-5
+2021-08-11T01:00:12.904-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-4
+2021-08-11T01:00:12.904-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-5
+2021-08-11T01:00:12.905-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-4
+2021-08-11T01:00:12.907-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-4
+2021-08-11T01:00:12.910-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:4}, fileType=cache, path=/root/storage1/cache/s-t01000-4
+2021-08-11T01:00:12.923-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-4
+2021-08-11T01:00:12.931-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-4
+2021-08-11T01:00:12.949-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-3
+2021-08-11T01:00:12.950-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:3}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-3
+2021-08-11T01:00:12.963-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-3
+2021-08-11T01:00:12.964-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-3
+2021-08-11T01:00:12.971-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-3
+2021-08-11T01:00:12.971-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:3}, fileType=sealed, path=/root/storage1/sealed/s-t01000-3
+2021-08-11T01:00:12.987-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-3
+2021-08-11T01:00:12.991-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-3
+2021-08-11T01:00:12.992-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-3
+2021-08-11T01:00:12.993-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:3}, fileType=cache, path=/root/storage1/cache/s-t01000-3
+2021-08-11T01:00:12.996-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-3
+2021-08-11T01:00:13.000-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-3
+2021-08-11T01:01:36.693-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-7 /root/storage1/sealed/s-t01000-7 /root/storage1/cache/s-t01000-7}
+2021-08-11T01:01:36.720-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-7  }
+2021-08-11T01:01:36.720-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:7; a:0): {{0 0} /root/storage1/unsealed/s-t01000-6 /root/storage1/sealed/s-t01000-6 /root/storage1/cache/s-t01000-6}
+2021-08-11T01:01:36.720-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:01:36.721-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 7} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-7}
+2021-08-11T01:01:36.728-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:1; a:0): {{0 0} /root/storage1/unsealed/s-t01000-6  }
+2021-08-11T01:01:36.728-0400	[33mWARN[0m	fsutil	fsutil/dealloc_linux.go:22	could not deallocate space, ignoring: operation not supported
+2021-08-11T01:01:36.729-0400	[35mDEBUG[0m	advmgr	sector-storage/worker_local.go:137	acquired sector {{1000 6} 5} (e:4; a:0): {{0 0}   /root/storage1/cache/s-t01000-6}
+2021-08-11T01:01:36.750-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-7
+2021-08-11T01:01:36.751-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:7}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-7
+2021-08-11T01:01:36.754-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-7
+2021-08-11T01:01:36.755-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-7
+2021-08-11T01:01:36.757-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-7
+2021-08-11T01:01:36.758-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:7}, fileType=sealed, path=/root/storage1/sealed/s-t01000-7
+2021-08-11T01:01:36.761-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-7
+2021-08-11T01:01:36.762-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-7
+2021-08-11T01:01:36.763-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-7
+2021-08-11T01:01:36.763-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:7}, fileType=cache, path=/root/storage1/cache/s-t01000-7
+2021-08-11T01:01:36.775-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/unsealed/s-t01000-6
+2021-08-11T01:01:36.775-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:6}, fileType=unsealed, path=/root/storage1/unsealed/s-t01000-6
+2021-08-11T01:01:36.777-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-7
+2021-08-11T01:01:36.777-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-7
+2021-08-11T01:01:36.784-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/unsealed/s-t01000-6
+2021-08-11T01:01:36.785-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/unsealed/s-t01000-6
+2021-08-11T01:01:36.786-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/sealed/s-t01000-6
+2021-08-11T01:01:36.787-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:6}, fileType=sealed, path=/root/storage1/sealed/s-t01000-6
+2021-08-11T01:01:36.790-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/sealed/s-t01000-6
+2021-08-11T01:01:36.791-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/sealed/s-t01000-6
+2021-08-11T01:01:36.794-0400	[34mINFO[0m	stores	stores/http_handler.go:88	SERVE GET /remote/cache/s-t01000-6
+2021-08-11T01:01:36.795-0400	[35mDEBUG[0m	stores	stores/http_handler.go:161	served sector file/dir, sectorID={Miner:1000 Number:6}, fileType=cache, path=/root/storage1/cache/s-t01000-6
+2021-08-11T01:01:36.798-0400	[34mINFO[0m	stores	stores/http_handler.go:165	SERVE DELETE /remote/cache/s-t01000-6
+2021-08-11T01:01:36.798-0400	[34mINFO[0m	stores	stores/local.go:616	remove /root/storage1/cache/s-t01000-6

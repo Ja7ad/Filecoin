@@ -1,0 +1,45 @@
+version: "3.1"
+
+services:
+    lotus-dev:
+        container_name: lotus
+        image: localhost:5000/lotus-dev:1.1
+        user: root
+        ports: 
+            - 1234:1234
+            - 2345:2345
+        network: host
+        environment: 
+            - LOTUS_PATH=~/.lotusDevnet
+            - LOTUS_MINER_PATH=~/.lotusminerDevnet
+            - LOTUS_SKIP_GENESIS_CHECK=_yes_
+        command: > 
+            bash -c "lotus fetch-params 2048 &&
+            lotus-seed pre-seal --sector-size 2KiB --num-sectors 2 &&
+            lotus-seed genesis new /root/localnet.json &&
+            lotus-seed genesis add-miner /root/localnet.json /root/.genesis-sectors/pre-seal-t01000.json &&
+            nohup lotus daemon --lotus-make-genesis=/root/devgen.car --genesis-template=/root/localnet.json --bootstrap=false >/root/lotus-daemon.log 2>&1 & sleep 20 &&
+            lotus wallet import --as-default /root/.genesis-sectors/pre-seal-t01000.key &&
+            lotus-miner init --genesis-miner --actor=t01000 --sector-size=2KiB --pre-sealed-sectors=/root/.genesis-sectors --pre-sealed-metadata=/root/.genesis-sectors/pre-seal-t01000.json --nosync &&
+            nohup lotus-miner run --nosync > /root/lotus-miner.log 2>&1
+            "
+        tty: true
+        stdin_open: true
+
+    lotus-worker:
+        image: localhost:5000/lotus-worker:1.0
+        user: root
+        environment: 
+            - MINER_API_INFO=${TOKEN}:/ip4/${IP}/tcp/${PORT}/http
+        command: > 
+            bash -c "nohup lotus-worker run  > /root/lotus-miner.log 2>&1"
+        tty: true
+        stdin_open: true
+
+    lotus-workerNC:
+        image: localhost:5000/lotus-worker:1.0
+        user: root
+        environment: 
+            - MINER_API_INFO=${TOKEN}:/ip4/${IP}/tcp/${PORT}/http
+        tty: true
+        stdin_open: true

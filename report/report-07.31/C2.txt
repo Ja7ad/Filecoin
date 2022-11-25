@@ -1,0 +1,7 @@
+How will C1 transfer 20MB to C2?The tar file will be sent, or will the API be directly called?
+
+C1 always runs on the same worker as PC2 because it's just reading ~20MB of data, so it's never needs to be fetched
+
+How will C1 transfer 20MB to C2?The tar file will be sent, or will the API be directly called?
+
+It's passed in jsonrpc params

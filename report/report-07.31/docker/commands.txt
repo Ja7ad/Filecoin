@@ -1,0 +1,60 @@
+Run Worker without local-storage :
+
+lotus-worker run --no-local-storage --precommit1=false --precommit2=true --commit=true --listen "0.0.0.0:3457"
+
+- Initialize miner with no local storage :
+
+ lotus-miner init --no-local-storage --genesis-miner --actor=t01000 --sector-size=2KiB --pre-sealed-sectors=/root/.genesis-sectors --pre-sealed-metadata=/root/.genesis-sectors/pre-seal-t01000.json --nosync
+
+- Attach Storage with init for miner :
+
+lotus-miner storage attach --seal --init /root/devnet/storage1
+lotus-miner storage attach --seal --init /root/devnet/storage2
+
+- Attach storage for worker :
+
+lotus-worker storage attach --seal /root/devnet/storage1
+lotus-worker storage attach --seal /root/devnet/storage2
+
+- Workers Info :
+
+Session: 77a69335-5a26-4059-8b75-2131318ba7e3
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.223 GiB
+Task types: FIN GET UNS C1 C2 PC2 AP 
+
+bb56783f-faec-427a-9848-1bfb4059f0a4:
+        Weight: 10; Use: Seal 
+        Local: /root/devnet/storage1
+fac05ecc-8b6b-424f-a33c-e3eb6eb694a8:
+        Weight: 10; Use: Seal 
+        Local: /root/devnet/storage2
+        
+Session: 81346a03-8370-4f98-a259-c5781e0f0901
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.548 GiB
+Task types: FIN GET UNS C1 PC1 AP 
+
+bb56783f-faec-427a-9848-1bfb4059f0a4:
+        Weight: 10; Use: Seal 
+        Local: /root/devnet/storage1
+fac05ecc-8b6b-424f-a33c-e3eb6eb694a8:
+        Weight: 10; Use: Seal 
+        Local: /root/devnet/storage2
+        
+- JobTracker PC1 Done :
+
+2021-07-30T03:18:20.043-0400    INFO    jobTracker      sector-storage/worker_tracked.go:75     Worker 001c751d in hostname ip-172-31-36-231 taskType AP with duration 2.80551ms done
+
+- Jobs :
+
+ID        Sector  Worker    Hostname          Task  State    Time
+be89f5aa  2       77a69335  ip-172-31-36-231  C2    running  14.5s
+0a313f39  3       77a69335  ip-172-31-36-231  C2    running  14.5s
+380233e1  4       77a69335  ip-172-31-36-231  C2    running  14.5s

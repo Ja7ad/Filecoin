@@ -1,0 +1,79 @@
+# Default config:
+[API]
+  ListenAddress = "/ip4/0.0.0.0/tcp/2345/http"
+  RemoteListenAddress = "0.0.0.0:2345"
+#  Timeout = "30s"
+#
+[Backup]
+#  DisableMetadataLog = false
+#
+[Libp2p]
+#  ListenAddresses = ["/ip4/0.0.0.0/tcp/0", "/ip6/::/tcp/0"]
+#  AnnounceAddresses = []
+#  NoAnnounceAddresses = []
+#  ConnMgrLow = 150
+#  ConnMgrHigh = 180
+#  ConnMgrGrace = "20s"
+#
+[Pubsub]
+#  Bootstrapper = false
+#  RemoteTracer = "/dns4/pubsub-tracer.filecoin.io/tcp/4001/p2p/QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"
+#
+[Dealmaking]
+#  ConsiderOnlineStorageDeals = true
+#  ConsiderOfflineStorageDeals = true
+#  ConsiderOnlineRetrievalDeals = true
+#  ConsiderOfflineRetrievalDeals = true
+#  ConsiderVerifiedStorageDeals = true
+#  ConsiderUnverifiedStorageDeals = true
+#  PieceCidBlocklist = []
+#  ExpectedSealDuration = "24h0m0s"
+#  PublishMsgPeriod = "1h0m0s"
+#  MaxDealsPerPublishMsg = 8
+#  MaxProviderCollateralMultiplier = 2
+#  Filter = ""
+#  RetrievalFilter = ""
+#
+[Sealing]
+  MaxWaitDealsSectors = 6
+  MaxSealingSectors = 600
+  MaxSealingSectorsForDeals = 7
+  WaitDealsDelay = "3h0m0s"
+  AlwaysKeepUnsealedCopy = true
+  FinalizeEarly = true
+  BatchPreCommits = true
+  MaxPreCommitBatch = 15
+  MinPreCommitBatch = 5
+  PreCommitBatchWait = "0h15m0s"
+  PreCommitBatchSlack = "5h0m0s"
+  AggregateCommits = true
+  MinCommitBatch = 5
+  MaxCommitBatch = 15
+  CommitBatchWait = "0h20m0s"
+  CommitBatchSlack = "5h0m0s"
+  TerminateBatchMax = 100
+  TerminateBatchMin = 1
+  TerminateBatchWait = "5m0s"
+
+[Storage]
+  ParallelFetchLimit = 5
+  AllowAddPiece = true
+  AllowPreCommit1 = false
+  AllowPreCommit2 = false
+  AllowCommit = false
+  AllowUnseal = true
+
+[Fees]
+#  MaxPreCommitGasFee = "0.025 FIL"
+#  MaxCommitGasFee = "0.05 FIL"
+#  MaxTerminateGasFee = "0.5 FIL"
+#  MaxWindowPoStGasFee = "5 FIL"
+#  MaxPublishDealsFee = "0.05 FIL"
+#  MaxMarketBalanceAddFee = "0.007 FIL"
+#
+[Addresses]
+#  PreCommitControl = []
+#  CommitControl = []
+#  DisableOwnerFallback = false
+#  DisableWorkerFallback = false
+#

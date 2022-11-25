@@ -1,0 +1,116 @@
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: 920ce943-8870-4474-afa2-7668b2eef6bd
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.357 GiB
+Task types: FIN GET UNS C1 AP 
+
+ccff600c-0476-45bb-a455-7acd21412888:
+        Weight: 10; Use: Seal 
+        Local: /root/storageAP
+        
+===========================================================
+
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: b895a830-c392-4a6a-99d0-cbee8fffe66e
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.512 GiB
+Task types: FIN GET UNS C1 PC1 
+
+5effe05c-f2d1-4761-88fb-646182ac1b26:
+        Weight: 10; Use: Seal 
+        Local: /root/storage1
+
+===========================================================
+
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: 05738e0c-0471-42ae-8afb-1e480fce5a2b
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.573 GiB
+Task types: FIN GET UNS C1 PC2 
+
+5effe05c-f2d1-4761-88fb-646182ac1b26:
+        Weight: 10; Use: Seal 
+        Local: /root/storage1
+
+===========================================================
+
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: 671b002d-2ea7-430d-9f6a-0eec470822ee
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.683 GiB
+Task types: FIN GET UNS C1 C2 
+
+5effe05c-f2d1-4761-88fb-646182ac1b26:
+        Weight: 10; Use: Seal 
+        Local: /root/storage1
+
+===========================================================
+c49ce920b06913bdeee5534692aa4c1d282defd3b6c8e0f5037991c55066cd00
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: a105460a-531b-4011-a3fd-e633dab5d7df
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.773 GiB
+Task types: FIN GET UNS C1 PC1 
+
+450191f3-8a9b-45a2-8c88-b97012888052:
+        Weight: 10; Use: Seal 
+        Local: /root/storage2
+
+===========================================================
+
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: 0d7ab6bc-ce6f-4166-9ea7-cd14ed01f9c2
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 2.898 GiB
+Task types: FIN GET UNS C1 PC2 
+
+450191f3-8a9b-45a2-8c88-b97012888052:
+        Weight: 10; Use: Seal 
+        Local: /root/storage2
+
+===========================================================
+
+Worker version:  1.1.0
+CLI version: lotus-worker version 1.11.2-dev+2k+git.5cf10054f
+
+Session: 27191d96-7ebc-43ca-a4af-361d7515bd9d
+Enabled: true
+Hostname: ip-172-31-36-231
+CPUs: 8; GPUs: []
+RAM: 15.46 GiB; Swap: 0 B
+Reserved memory: 3.047 GiB
+Task types: FIN GET UNS C1 C2 
+
+450191f3-8a9b-45a2-8c88-b97012888052:
+        Weight: 10; Use: Seal 
+        Local: /root/storage2

@@ -1,0 +1,8 @@
+Software Solutions :
+
+nfs over RDMA : https://community.mellanox.com/s/article/howto-configure-nfs-over-rdma--roce-x
+RDMA roce solutions : https://community.mellanox.com/s/article/rdma-roce-solutions
+Ethernet Drivers : https://developer.nvidia.com/networking/ethernet-software
+IB Drivers : https://developer.nvidia.com/networking/infiniband-software
+Firmware : https://mellanox.com/support/firmware/firmware-downloads
+RDMA over Converged Ethernet (RoCE) from A to Z : https://academy.mellanox.com/en/course/rdma-over-converged-ethernet-roce-from-a-to-z/?cm=975

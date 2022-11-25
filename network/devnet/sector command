@@ -1,0 +1,4 @@
+lotus-miner sectors list = Show list sectors
+lotus-miner sealing sched-diag = Show scheduler status
+lotus-miner sectors seal <sector id> = manually run seal on sector
+
